@@ -1,22 +1,24 @@
-function createFakeSheet() {
-  let css = {
-    ".col": {
-      "display": "flex",
-      "flexDirection": "column",
-      "justifyContent" : "space-between",
-      "alignItems": "center",
-      "height": "100%",
-      "width": "auto"
-    },
-    ".row": {
-      "display": "flex",
-      "flexDirection": "row",
-      "justifyContent" : "space-between",
-      "alignItems": "center",
-      "height": "auto",
-      "width": "100%"
-    }
+let css = {
+  ".col": {
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "space-between",
+    "alignItems": "center",
+    "height": "100%",
+    "width": "auto"
+  },
+  ".row": {
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "space-between",
+    "alignItems": "center",
+    "height": "auto",
+    "width": "100%"
   }
+}
+
+function createFakeSheet() {
+  
 }
 
 function displayFakeSheet(sheet) {
