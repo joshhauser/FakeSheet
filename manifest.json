@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "FakeSheet",
+  "version": "1.0",
+
+  "description": "FakeSheet is a web extension that allows you to display a fake sheet upon a webpage, so that you can hide the page content if it's private and someone's behind you. This idea has been inspired Tinder for web browser.",
+
+  "icons": {
+    "48": "icons/fs-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*"],
+      "js": ["./scripts/fs.js"]
+    }
+  ]
+
+}
