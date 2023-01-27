@@ -18,6 +18,22 @@ let css = {
 }
 
 function createFakeSheet() {
+  function createButton(type, text, icon) {
+    if (type === 'text') {
+
+    }
+    else {
+      
+    }
+  }
+
+  function createToolbar() {
+
+  }
+  
+  function createSheetGrid() {
+
+  }
   
 }
 
