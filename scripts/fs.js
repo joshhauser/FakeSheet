@@ -43,5 +43,5 @@ function displayFakeSheet(sheet) {
 }
 
 document.onkeyup = (event) => {
-
+  
 }
